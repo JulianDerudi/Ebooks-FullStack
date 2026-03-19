@@ -3,16 +3,26 @@ import { Link, useNavigate } from 'react-router';
 import { useAuth } from '../../Context/AuthContext';
 import { Button, FormInput } from '../../Components/shared/FormComponents';
 
+
 export default function LoginScreen() {
     const [formData, setFormData] = useState({ email: '', password: '' });
     const [error, setError] = useState('');
     const { login } = useAuth();
     const navigate = useNavigate();
 
+    /**
+     * Handles changes to the form data
+     * @param {string} field The field name
+     * @param {object} e The event object
+     */
     const handleChange = (field) => (e) => {
         setFormData(prev => ({ ...prev, [field]: e.target.value }));
     };
 
+    /**
+     * Handles form submission
+     * @param {object} e The event object
+     */
     const handleSubmit = async (e) => {
         e.preventDefault();
         setError('');
@@ -67,3 +77,4 @@ export default function LoginScreen() {
         </div>
     );
 }
+/*******  01dbea78-5e72-4f9b-bf05-d6f5e00187d1  *******/
