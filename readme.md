@@ -1,142 +1,24 @@
-# 📚 E-Books React App
+# Mi Dragoncito - Your Virtual Library
+### Mi Dragoncito is a virtual library application built with React and MongoDB. It allows users to discover, explore, and manage their collection of ebooks in a user-friendly interface. The application features a home screen with a welcoming message, a header for easy navigation, and various components to enhance the user experience. Whether you're an avid reader or just looking for new stories to enjoy, Mi Dragoncito is your go-to platform for all things ebooks!
 
-Aplicación web desarrollada con **React.js** como parte del curso de Full Stack (unidad de React).  
-La aplicación permite explorar una colección de libros digitales, realizar búsquedas dinámicas y navegar hacia el detalle de cada libro.
-
-🔗 **Demo en producción:**  
-https://ebooks-blue-seven.vercel.app/
-
-📦 **Repositorio:**  
-https://github.com/JulianDerudi/ebooks
-
----
-
-## 🎯 Objetivo del Proyecto
-
-El objetivo principal fue aplicar los conceptos fundamentales de **React moderno**, enfocándome en:
-
-- Arquitectura basada en componentes
-- Manejo de estado local y global
-- Uso de Hooks
-- Lógica de búsqueda dinámica
-- Navegación entre vistas
-- Despliegue en producción con Vercel
-
-Este proyecto forma parte de mi formación como desarrollador Full Stack.
-
----
-
-## 🚀 Funcionalidades
-
-- 📚 Listado dinámico de eBooks
-- 🔎 Búsqueda por **nombre o ID**
-- ✨ Coincidencias parciales (si se escribe parte del nombre redirige al libro correspondiente)
-- 📄 Vista de detalle por libro
-- 🌐 Navegación entre rutas
-- 🧠 Manejo de estado global con **Context API**
-- 🚀 Deploy en Vercel
-
----
-
-## 🛠️ Tecnologías Utilizadas
-
-- **React.js**
-- **React Context API**
-- **React Hooks (useState, useEffect, useContext)**
-- **Vite**
-- **JavaScript (ES6+)**
-- **CSS**
-- **Git & GitHub**
-- **Vercel (deploy en producción)**
-
----
-
-## 🧱 Arquitectura del Proyecto
-
-El proyecto está organizado siguiendo buenas prácticas de React:
-
-    ebooks/
-    ├── public/
-    ├── src/
-    │ ├── Components/
-    │ ├── Context/
-    │ ├── data/
-    │ │ └── ebooksData.js
-    | ├── Screens/
-    | ├── styles/
-    │ ├── App.jsx
-    │ └── main.jsx
-    ├── package.json
-    ├── vite.config.js
-    └── README.md
-
-
-### 📌 Principales conceptos implementados:
-
-- Separación por componentes reutilizables
-- Context para evitar prop drilling
-- Renderizado condicional
-- Navegación mediante rutas
-- Lógica de filtrado y búsqueda
-- Organización escalable del proyecto
-
----
-
-## 💻 Instalación y Ejecución Local
-
-1. Clonar el repositorio:
-    
-    git clone https://github.com/JulianDerudi/ebooks.git
-
-2. Ingresar al directorio del proyecto:
-    
-    cd ebooks
-
-3. Instalar dependencias:
-    
-    npm install
-
-4. Ejecutar el servidor de desarrollo:
-    
-    npm run dev
-
-5. Abrir en el navegador:
-
-    http://localhost:5173
-
-## 📚 Aprendizajes Clave
-
-Este proyecto demuestra:
-
-- Comprensión de React moderno
-- Manejo de estado global con Context API
-- Organización profesional de un proyecto frontend
-- Despliegue real en producción
-- Implementación de lógica dinámica en el cliente
-- Navegación entre vistas
-
-## 🔮 Posibles Mejoras Futuras
-
-* Integración con API real de libros
-
-* Persistencia en LocalStorage
-
-* Sistema de favoritos
-
-* Filtros avanzados y paginación
-
-* Autenticación de usuarios
-
-* Mejoras de UI/UX
-
-## 👤 Autor
-
-Julián Derudi
-
-📌 Portafolio: https://julianderudi.github.io/Portafolio/
-
-🔗 LinkedIn: https://www.linkedin.com/in/julian-derudi-730ba8343/
-
----
-
-Proyecto realizado con fines educativos como parte de mi formación en desarrollo Full Stack.
+## Features:
+- Browse and discover a wide range of ebooks
+- Manage your personal ebook collection
+- User-friendly interface with responsive design
+## Technologies Used:
+- React for the frontend
+- MongoDB for the backend database
+- Express.js for the server
+- Node.js for the runtime environment
+## Installation:
+1. Clone the repository: `git clone
+2. Navigate to the project directory: `cd Frontend-Ebooks-MongoDB`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm start`
+## Contributing:
+Contributions are welcome! Please feel free to submit a pull request or open an issue for any bugs or feature requests.
+## License:
+This project is licensed under the MIT License. See the LICENSE file for details.
+## Contact:
+For any questions or inquiries, please contact julianderudi9@gmail.com.
+Thank you for checking out Mi Dragoncito! Happy reading!
