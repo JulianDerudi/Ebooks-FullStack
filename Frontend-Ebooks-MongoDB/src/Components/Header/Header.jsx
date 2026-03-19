@@ -16,7 +16,7 @@ export default function Header() {
             boxShadow: 'var(--shadow-md)'
         }}>
             <Link to="/" style={{ textDecoration: 'none', color: 'white' }}>
-                <h1 style={{ margin: 0, fontSize: '1.5rem' }}>My Virtual Library</h1>
+                <h1 style={{ margin: 0, fontSize: '1.5rem' }}>Mi Dragoncito</h1>
             </Link>
 
             <nav style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
